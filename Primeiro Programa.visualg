@@ -1,0 +1,15 @@
+algoritmo "Kmparacm"
+
+var
+ km,convertm,convertc:real
+
+inicio
+
+  escreval("Escreva número km converter: ")
+  leia(km)
+  convertm<-(km*1000)
+  convertc<-(km*100000)
+  escreva("A conversão de quilômetro: "+km+"km para metros : " +convertm+"m para centímetros: "+ convertc +"cm")
+
+fimalgoritmo
+ 
