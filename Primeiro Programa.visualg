@@ -9,7 +9,7 @@ inicio
   leia(km)
   convertm<-(km*1000)
   convertc<-(km*100000)
-  escreva("A conversão de quilômetro: "+km+"km para metros : " +convertm+"m para centímetros: "+ convertc +"cm")
+  escreva("A conversão de quilômetro: "+km+"km para metros:" +convertm+"m  para centímetros:"+ convertc +"cm")
 
 fimalgoritmo
  
