@@ -1,0 +1,24 @@
+algoritmo "AcumuSoma"
+
+var
+  acumulador, numero: real
+  contador: inteiro
+  nome: caractere
+
+inicio
+
+  acumulador <- 0
+
+  escreval("Digite seu nome:")
+  leia(nome)
+  escreval("Olá,", nome, "!")
+  escreval("Digite 2 números para somar:")
+  para contador de 1 ate 2 faca
+  escreval("Digite um número:")
+  leia(numero)
+  escreval(numero)
+  acumulador <- acumulador + numero
+  fimpara
+  escreval("A soma total é:", acumulador)
+
+fimalgoritmo
