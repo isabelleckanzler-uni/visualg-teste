@@ -1,0 +1,14 @@
+algoritmo "script_enquanto"
+var
+  contador: inteiro
+inicio
+  contador <- 5
+
+  escreval("Contagem Regressiva ")
+  enquanto (contador >= 1) faca
+  escreval("Lançamento em: ", contador)
+  contador <- contador - 1 
+
+fimenquanto
+escreval("Decolar!")
+fimalgoritmo
