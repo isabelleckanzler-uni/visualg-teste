@@ -1,0 +1,12 @@
+algoritmo "script_para"
+
+var
+  i: inteiro
+inicio
+  escreval ("Tabuada do 2") 
+  para i de 1 ate 10 faca
+    escreval("2 x ", i, " = ", 2 * i)
+  fimpara
+   
+  escreval("Fim da tabuada!")
+fimalgoritmo
